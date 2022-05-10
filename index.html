@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" target="_top">
+<head>
+    <meta charset="UTF-8" target="_top">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" target="_top">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" target="_top">
+    <title>More  practice </title>
+<style>
+body {
+ background-image: linear-gradient(to right, rgba(164, 218, 243, 0.789), rgba(247, 160, 195, 0.789),  rgba(248, 168, 122, 0.789)) ;
+ color:#000;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 20px;
+}
+/* a{font-weight: bold;} */
+a:link {
+  color: rgb(196, 0, 0);
+}
+
+a:visited {
+  color: rgb(1, 97, 1);
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: rgb(11, 11, 151);
+
+  
+}.container{
+    line-height: 180%;
+    border: dotted  rgb(161, 55, 55);
+    width: 30%;
+    margin-bottom: 3px;
+}
+
+span { font-size: 20px;
+      font-weight: bold; 
+      color: black;
+      background-color: antiquewhite;
+      border:12px dotted antiquewhite;
+      border-radius: 5px;
+      margin-left: 2px;
+      animation-name: new;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      cursor: zoom-in;
+
+    }
+@keyframes new {
+                    from{background-color: antiquewhite;
+                        border:  dotted antiquewhite;}
+                    to {background-color:red ;
+                        border:  dotted red ;}
+                   
+   }
+
+   @media (min-width: 320px)and (max-width : 420px){
+  .container{width: 80%;    font-size: 20px;}
+    dt{margin-bottom: 30px;}
+}
+@media (min-width: 422px)and (max-width : 560px){
+    .container{width: 80%;    font-size: 22px;}
+    dt{margin-bottom: 30px;}
+
+}
+
+</style>
+
+</head>
+<body>
+<h1>MySql </h1>
+
+<div class="container">
+    <ul> Tuseday &nbsp;&nbsp;10-5-2022&nbsp;&nbsp;  <span> New </span><br>
+        <dt><a href="files/cust_db_system.pdf" target="-blank"> Customers Database tables</a></dt>
+    </ul>
+</div>
+</body>
+
+
+</html>
