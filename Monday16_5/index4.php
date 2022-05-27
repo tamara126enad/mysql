@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$db="tttttttttttt";
+$db="crud2";
 
 echo "<form method='post'>
 <lable>name</lable>
